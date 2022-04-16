@@ -21,12 +21,48 @@
     <ClInclude Include="Camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="3d_figures.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="l_parser.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render_facilities.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3d.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="easy_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ini_configuration.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3d_figures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="l_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="render_facilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_image.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ini_configuration.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

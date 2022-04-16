@@ -141,12 +141,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="3d_figures.h" />
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="easy_image.h" />
+    <ClInclude Include="ini_configuration.h" />
+    <ClInclude Include="l_parser.h" />
     <ClInclude Include="olcPixelGameEngine.h" />
+    <ClInclude Include="render_facilities.h" />
+    <ClInclude Include="vector3d.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="3d_figures.cpp" />
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="easy_image.cc" />
+    <ClCompile Include="ini_configuration.cc" />
+    <ClCompile Include="l_parser.cc" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="render_facilities.cpp" />
+    <ClCompile Include="vector3d.cc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
